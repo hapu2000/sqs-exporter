@@ -16,7 +16,7 @@ FROM alpine:3.9
 
 RUN apk --no-cache add ca-certificates
 
-WORKDIR /root/
+WORKDIR /usr/app/
 
 COPY --from=builder /go/src/sqs_exporter/sqs_prom .
 

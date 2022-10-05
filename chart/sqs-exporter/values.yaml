@@ -8,7 +8,6 @@ restartPolicy: Always
 
 env:
   AWS_REGION: eu-west-1
-  INTERVAL: 60
 
 image:
   repository: hapu2000/sqs-exporter
